@@ -1,0 +1,3214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1480px) {
+  header {
+    width: 100%;
+  }
+  header .center1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header .center1 .header_item .df1 {
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center1 .header_item .df1 .df_first {
+    border-radius: 32px 32px 32px 16px;
+    background: rgb(247, 247, 247);
+    width: 952px;
+    height: 475px;
+  }
+  header .center1 .header_item .df1 .df_first .elements {
+    margin-top: 52px;
+    margin-left: 64px;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 {
+    display: flex;
+    gap: 220px;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 h1 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: left;
+  }
+  header .center1 .header_item .df1 .df_first .elements h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    margin-top: 32px;
+    width: 824px;
+  }
+  header .center1 .header_item .df1 .df_first .elements hr {
+    background: rgb(18, 18, 18);
+    width: 480px;
+    height: 4px;
+    margin-top: 80px;
+  }
+  header .center1 .header_item .df1 .df_first .elements button {
+    border: 0;
+    border-radius: 24px 8px 24px 8px;
+    background: rgb(0, 47, 73);
+    margin-top: 24px;
+    width: 338px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df_el {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center1 .header_item .df1 .df_photo img {
+    width: 460px;
+    height: 475px;
+  }
+  header .center2 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  header .center2 .df_ele {
+    display: flex;
+    gap: 32px;
+  }
+  header .center2 .df_ele a .card {
+    border-radius: 16px 16px 16px 4px;
+    background: rgb(247, 247, 247);
+    width: 337px;
+    height: 150px;
+  }
+  header .center2 .df_ele a .card .ele {
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  header .center2 .df_ele a .card .ele img {
+    width: 72px;
+    height: 72px;
+  }
+  header .center2 .df_ele a .card .ele .df {
+    margin-top: 17px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center2 .df_ele a .card .ele .df p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 243px;
+  }
+  section {
+    margin-top: 100px;
+    width: 100%;
+  }
+  section .about .center {
+    display: flex;
+    justify-content: center;
+  }
+  section .about .center .df_section {
+    display: flex;
+    gap: 32px;
+  }
+  section .about .center .df_section .element1 img {
+    border-radius: 16px 32px 32px 32px;
+    width: 460px;
+    height: 468px;
+  }
+  section .about .center .df_section .element2 .el1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 952px;
+    height: 88px;
+    border-radius: 32px 16px 32px 32px;
+    background: rgb(247, 247, 247);
+  }
+  section .about .center .df_section .element2 .el1 p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el1 hr {
+    width: 190px;
+    height: 4px;
+    background: rgb(18, 18, 18);
+  }
+  section .about .center .df_section .element2 .el2 {
+    margin-top: 16px;
+    width: 952px;
+    height: 622px;
+    border-radius: 32px 32px 16px 32px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 p {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 hr {
+    width: 40px;
+    height: 4px;
+    background: rgb(0, 47, 73);
+  }
+  section .about .center .df_section .element2 .el2 .elements h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+  section .about .center .df_section .element2 .el2 .elements h3 {
+    width: 888px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el2 .elements h3 span {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el2 .elements .end {
+    margin-top: 21px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  section .about .center .df_section .element2 .el2 .elements .end p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .our {
+    margin-top: 100px;
+    width: 100%;
+  }
+  section .our .left {
+    display: flex;
+    justify-content: center;
+  }
+  section .our .left button {
+    margin-right: -1220px;
+    border-radius: 24px 8px 24px 8px;
+    width: 238px;
+    height: 64px;
+    background: rgb(0, 47, 73);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+  section .our .center1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 1209px;
+    align-items: center;
+  }
+  section .our .center1 .safe .text .df {
+    align-items: center;
+    display: flex;
+  }
+  section .our .center1 .safe .text .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .our .center1 .safe .text .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 3px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .our .center1 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+  section .our .center {
+    display: flex;
+  }
+  section .our .center .our {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .our .center .our h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .our .center .our .df_main {
+    display: flex;
+  }
+  section .our .center .our .df_main .pages {
+    margin-top: 32px;
+  }
+  section .our .center .our .df_main .pages .ss {
+    width: 28px;
+    height: 28px;
+  }
+  section .our .center .our .df_main .pages .sliders {
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  section .our .center .our .df_main .pages .sliders svg {
+    margin-top: 4px;
+    width: 15px;
+    height: 10px;
+    display: block;
+  }
+  section .our .center .our .main_df {
+    display: flex;
+    gap: 32px;
+    margin-top: 30px;
+  }
+  section .our .center .our .main_df .element11 {
+    margin-left: 16px;
+    width: 918px;
+    height: 460px;
+    border-radius: 16px 32px 32px 32px;
+    background: rgb(247, 247, 247);
+  }
+  section .our .center .our .main_df .element11 .elements {
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  section .our .center .our .main_df .element11 .elements .df {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  section .our .center .our .main_df .element11 .elements .df p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    width: 582px;
+  }
+  section .our .center .our .main_df .element11 .elements .df hr {
+    /* Sep */
+    width: 240px;
+    height: 4px;
+    background: rgb(18, 18, 18);
+  }
+  section .our .center .our .main_df .element11 .elements h3 {
+    width: 854px;
+    margin-top: 16px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element11 .elements h3 span {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element11 .elements .end {
+    margin-top: 90px;
+  }
+  section .our .center .our .main_df .element11 .elements .end p {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element22 img {
+    width: 460px;
+    height: 460px;
+  }
+  section .better .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  section .better .center .top {
+    margin-right: 1089px;
+  }
+  section .better .center .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .better .center .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .better .center .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .better .center .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .better .center_main {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  section .better .center_main .df1 {
+    display: flex;
+    gap: 32px;
+  }
+  section .better .center_main .df1 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 100px;
+  }
+  section .better .center_main .df1 .card .elements .df {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+  section .better .center_main .df1 .card .elements .df img {
+    width: 60px;
+    height: 60px;
+  }
+  section .better .center_main .df1 .card .elements .df .item2 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 340px;
+  }
+  section .better .center_main .df1 .card .elements .df .item2 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 340px;
+  }
+  section .better .center_main .df2 {
+    display: flex;
+    margin-top: 16px;
+    gap: 32px;
+  }
+  section .better .center_main .df2 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 100px;
+  }
+  section .better .center_main .df2 .card .elements .df {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+  section .better .center_main .df2 .card .elements .df img {
+    width: 60px;
+    height: 60px;
+  }
+  section .better .center_main .df2 .card .elements .df .item2 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 340px;
+  }
+  section .better .center_main .df2 .card .elements .df .item2 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 340px;
+  }
+  section .choose {
+    width: 100%;
+    margin-top: 100px;
+  }
+  section .choose .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .choose .center .choose .top {
+    margin-right: 1149px;
+  }
+  section .choose .center .choose .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .choose .center .choose .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .choose .center .choose .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .choose .center .choose .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .choose .center .choose .pages {
+    margin-right: -1292px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+  section .choose .center .choose .pages .ss2 {
+    margin-left: 10px;
+  }
+  section .choose .center .choose .pages .sliders {
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  section .choose .center .choose .pages .sliders svg {
+    margin-top: 15px;
+    width: 15px;
+    height: 10px;
+  }
+  section .choose .center .choose .cards {
+    margin-top: 12px;
+    display: flex;
+    gap: 32px;
+  }
+  section .choose .center .choose .cards .card img {
+    width: 336px;
+    height: 476px;
+  }
+  section .choose .center .choose .cards .card p {
+    margin-top: 12px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    width: 336px;
+  }
+  section .partners {
+    margin-top: 100px;
+  }
+  section .partners .center {
+    display: flex;
+    justify-content: center;
+  }
+  section .partners .center .top {
+    margin-right: 1149px;
+  }
+  section .partners .center .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .partners .center .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .partners .center .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .partners .center .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .partners .center .partners .cards {
+    margin-top: 32px;
+    gap: 32px;
+    display: flex;
+  }
+  section .partners .center .partners .cards img {
+    width: 214px;
+    height: 212px;
+  }
+  section .join {
+    margin-top: 100px;
+  }
+  section .join .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .join .center .join .top {
+    margin-right: 1149px;
+  }
+  section .join .center .join .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .join .center .join .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .join .center .join .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .join .center .join .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df1 {
+    display: flex;
+    gap: 32px;
+  }
+  section .join .center .join .cards .df1 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df1 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df1 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df1 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 336px;
+  }
+  section .join .center .join .cards .df1 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df2 {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+  }
+  section .join .center .join .cards .df2 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df2 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df2 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df2 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 336px;
+  }
+  section .join .center .join .cards .df2 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df3 {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+  }
+  section .join .center .join .cards .df3 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df3 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df3 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df3 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 336px;
+  }
+  section .join .center .join .cards .df3 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df3 .card_more {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df3 .card_more .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df3 .card_more .df h2 {
+    width: 398px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df3 .card_more .df svg {
+    position: absolute;
+    margin-left: 418px;
+    margin-top: 25.5px;
+    width: 22px;
+    height: 22px;
+  }
+  section .join .center .join .cards .df3 .card_more h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+  section .join .center .join .end {
+    width: 1444px;
+    height: 88px;
+    border-radius: 32px 16px 32px 32px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+  }
+  section .join .center .join .end .df {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  section .join .center .join .end .df .df1 {
+    display: flex;
+    align-items: center;
+  }
+  section .join .center .join .end .df .df1 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 32px;
+  }
+  section .join .center .join .end .df .df1 hr {
+    margin-left: 20px;
+    background: rgb(18, 18, 18);
+    width: 240px;
+    height: 3px;
+  }
+  section .join .center .join .end .df .df2 {
+    margin-left: 317px;
+    gap: 32px;
+    display: flex;
+  }
+  section .join .center .join .end .df .df2 p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  footer .center {
+    gap: 34px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .center .df1 {
+    margin-left: -20px;
+    width: 460px;
+  }
+  footer .center .df1 img {
+    display: flex;
+    margin-left: 311px;
+    width: 149px;
+    height: 47px;
+  }
+  footer .center .df1 .inside {
+    margin-top: 32px;
+    width: 460px;
+    height: 261px;
+    border-radius: 8px 32px 8px 32px;
+    background: rgb(247, 247, 247);
+  }
+  footer .center .df1 .inside .details {
+    padding-top: 24px;
+    margin-left: 32px;
+  }
+  footer .center .df1 .inside .details .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  footer .center .df1 .inside .details .top .df h2 {
+    width: 110px;
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  footer .center .df1 .inside .details .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  footer .center .df1 .inside .details .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  footer .center .df1 .inside .details .df1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df2 {
+    margin-top: 22.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df2 svg {
+    width: 24px;
+    height: 24px;
+  }
+  footer .center .df1 .inside .details .df3 {
+    margin-top: 12.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df3 svg {
+    width: 30px;
+    height: 24px;
+  }
+  footer .center .df1 .inside .end {
+    margin-top: 5px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 4px;
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  footer .center .df1 .df22 {
+    margin-bottom: 40px;
+    display: flex;
+    padding-top: 107px;
+    gap: 149px;
+  }
+  footer .center .df1 .df22 p {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+  }
+  footer .center .df2 img {
+    width: 952px;
+    height: 460px;
+  }
+}
+@media only screen and (max-width: 1480px) {
+  header {
+    width: 100%;
+  }
+  header .center1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header .center1 .header_item .df1 {
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center1 .header_item .df1 .df_first {
+    border-radius: 32px 32px 32px 16px;
+    background: rgb(247, 247, 247);
+    width: 746px;
+    height: 475px;
+  }
+  header .center1 .header_item .df1 .df_first .elements {
+    margin-top: 52px;
+    margin-left: 64px;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 {
+    display: flex;
+    gap: 220px;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 h1 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: left;
+  }
+  header .center1 .header_item .df1 .df_first .elements h3 {
+    width: 656px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    margin-top: 32px;
+  }
+  header .center1 .header_item .df1 .df_first .elements hr {
+    background: rgb(18, 18, 18);
+    width: 480px;
+    height: 4px;
+    margin-top: 80px;
+  }
+  header .center1 .header_item .df1 .df_first .elements button {
+    border: 0;
+    border-radius: 24px 8px 24px 8px;
+    background: rgb(0, 47, 73);
+    margin-top: 24px;
+    width: 338px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df_el {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center1 .header_item .df1 .df_photo img {
+    width: 460px;
+    height: 475px;
+  }
+  header .center2 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  header .center2 .df_ele {
+    display: flex;
+    gap: 32px;
+  }
+  header .center2 .df_ele a .card {
+    border-radius: 16px 16px 16px 4px;
+    background: rgb(247, 247, 247);
+    width: 337px;
+    height: 150px;
+  }
+  header .center2 .df_ele a .card .ele {
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  header .center2 .df_ele a .card .ele img {
+    width: 72px;
+    height: 72px;
+  }
+  header .center2 .df_ele a .card .ele .df {
+    margin-top: 17px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center2 .df_ele a .card .ele .df p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 243px;
+  }
+  section {
+    margin-top: 100px;
+    width: 100%;
+  }
+  section .about .center {
+    display: flex;
+    justify-content: center;
+  }
+  section .about .center .df_section {
+    display: flex;
+    gap: 32px;
+  }
+  section .about .center .df_section .element1 img {
+    border-radius: 16px 32px 32px 32px;
+    width: 460px;
+    height: 468px;
+  }
+  section .about .center .df_section .element2 .el1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 756px;
+    height: 88px;
+    border-radius: 32px 16px 32px 32px;
+    background: rgb(247, 247, 247);
+  }
+  section .about .center .df_section .element2 .el1 p {
+    width: 60%;
+    font-size: 17px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el1 hr {
+    width: 190px;
+    height: 4px;
+    background: rgb(18, 18, 18);
+  }
+  section .about .center .df_section .element2 .el2 {
+    margin-top: 16px;
+    width: 756px;
+    height: 728px;
+    border-radius: 32px 32px 16px 32px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 p {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 hr {
+    width: 40px;
+    height: 4px;
+    background: rgb(0, 47, 73);
+  }
+  section .about .center .df_section .element2 .el2 .elements h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+  section .about .center .df_section .element2 .el2 .elements h3 {
+    width: 691px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el2 .elements h3 span {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el2 .elements .end {
+    margin-top: 21px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  section .about .center .df_section .element2 .el2 .elements .end p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .our {
+    margin-top: 100px;
+    width: 100%;
+  }
+  section .our .left {
+    display: flex;
+    justify-content: center;
+  }
+  section .our .left button {
+    margin-right: -1015px;
+    border-radius: 24px 8px 24px 8px;
+    width: 238px;
+    height: 64px;
+    background: rgb(0, 47, 73);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+  section .our .center1 {
+    margin-right: 1014px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .our .center1 .safe .text .df {
+    align-items: center;
+    display: flex;
+  }
+  section .our .center1 .safe .text .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .our .center1 .safe .text .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 3px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .our .center1 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+  section .our .center {
+    display: flex;
+  }
+  section .our .center .our {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .our .center .our h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .our .center .our .df_main {
+    display: flex;
+  }
+  section .our .center .our .df_main .pages {
+    margin-top: 32px;
+  }
+  section .our .center .our .df_main .pages .ss {
+    width: 28px;
+    height: 28px;
+  }
+  section .our .center .our .df_main .pages .sliders {
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  section .our .center .our .df_main .pages .sliders svg {
+    margin-top: 4px;
+    width: 15px;
+    height: 10px;
+    display: block;
+  }
+  section .our .center .our .main_df {
+    display: flex;
+    gap: 32px;
+    margin-top: 30px;
+  }
+  section .our .center .our .main_df .element11 {
+    height: 460px;
+    width: 707px;
+    margin-left: 16px;
+    border-radius: 16px 32px 32px 32px;
+    background: rgb(247, 247, 247);
+  }
+  section .our .center .our .main_df .element11 .elements {
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  section .our .center .our .main_df .element11 .elements .df {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  section .our .center .our .main_df .element11 .elements .df p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    width: 357px;
+  }
+  section .our .center .our .main_df .element11 .elements .df hr {
+    /* Sep */
+    width: 240px;
+    height: 4px;
+    background: rgb(18, 18, 18);
+  }
+  section .our .center .our .main_df .element11 .elements h3 {
+    width: 654px;
+    margin-top: 16px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element11 .elements h3 span {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element11 .elements .end {
+    margin-top: 15px;
+  }
+  section .our .center .our .main_df .element11 .elements .end p {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element22 img {
+    width: 460px;
+    height: 460px;
+  }
+  section .better .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  section .better .center .top {
+    margin-right: 856px;
+  }
+  section .better .center .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .better .center .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .better .center .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .better .center .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .better .center_main {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  section .better .center_main .df1 {
+    display: flex;
+    gap: 32px;
+  }
+  section .better .center_main .df1 .card {
+    width: 380px;
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    height: 100px;
+  }
+  section .better .center_main .df1 .card .elements .df {
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+  section .better .center_main .df1 .card .elements .df img {
+    width: 60px;
+    height: 60px;
+  }
+  section .better .center_main .df1 .card .elements .df .item2 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  section .better .center_main .df1 .card .elements .df .item2 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .better .center_main .df2 {
+    display: flex;
+    margin-top: 16px;
+    gap: 32px;
+  }
+  section .better .center_main .df2 .card {
+    width: 380px;
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    height: 100px;
+  }
+  section .better .center_main .df2 .card .elements .df {
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+  section .better .center_main .df2 .card .elements .df img {
+    width: 60px;
+    height: 60px;
+  }
+  section .better .center_main .df2 .card .elements .df .item2 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  section .better .center_main .df2 .card .elements .df .item2 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .choose {
+    width: 100%;
+    margin-top: 100px;
+  }
+  section .choose .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .choose .center .choose .top {
+    margin-right: 918px;
+  }
+  section .choose .center .choose .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .choose .center .choose .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .choose .center .choose .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .choose .center .choose .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .choose .center .choose .pages {
+    margin-right: -1070px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+  section .choose .center .choose .pages .ss2 {
+    margin-left: 10px;
+  }
+  section .choose .center .choose .pages .sliders {
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  section .choose .center .choose .pages .sliders svg {
+    margin-top: 15px;
+    width: 15px;
+    height: 10px;
+  }
+  section .choose .center .choose .cards {
+    margin-top: 12px;
+    display: flex;
+    gap: 22px;
+  }
+  section .choose .center .choose .cards .card img {
+    width: 280px;
+  }
+  section .choose .center .choose .cards .card p {
+    width: 286px;
+    margin-top: 12px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+  }
+  section .partners {
+    margin-top: 100px;
+  }
+  section .partners .center {
+    display: flex;
+    justify-content: center;
+  }
+  section .partners .center .top {
+    margin-right: 986px;
+  }
+  section .partners .center .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .partners .center .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .partners .center .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .partners .center .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .partners .center .partners .cards {
+    margin-top: 32px;
+    gap: 32px;
+    display: flex;
+  }
+  section .partners .center .partners .cards img {
+    width: 179px;
+  }
+  section .join {
+    margin-top: 100px;
+  }
+  section .join .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .join .center .join .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .join .center .join .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .join .center .join .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .join .center .join .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards {
+    margin-top: 32px;
+  }
+  section .join .center .join .cards .df1 {
+    display: flex;
+    gap: 32px;
+  }
+  section .join .center .join .cards .df1 .card {
+    width: 398px;
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    height: 81px;
+  }
+  section .join .center .join .cards .df1 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df1 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df1 .card .df h3 {
+    width: 272px;
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df1 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df2 {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+  }
+  section .join .center .join .cards .df2 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 398px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df2 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df2 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df2 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 272px;
+  }
+  section .join .center .join .cards .df2 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df3 {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+  }
+  section .join .center .join .cards .df3 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 398px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df3 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df3 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df3 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 272px;
+  }
+  section .join .center .join .cards .df3 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df3 .card_more {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 398px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df3 .card_more .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df3 .card_more .df h2 {
+    width: 398px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df3 .card_more .df svg {
+    margin-left: 353px;
+    position: absolute;
+    margin-top: 25.5px;
+    width: 22px;
+    height: 22px;
+  }
+  section .join .center .join .cards .df3 .card_more h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+  section .join .center .join .end {
+    width: 1257px;
+    height: 88px;
+    border-radius: 32px 16px 32px 32px;
+    background: rgb(247, 247, 247);
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+  }
+  section .join .center .join .end .df {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  section .join .center .join .end .df .df1 {
+    display: flex;
+    align-items: center;
+  }
+  section .join .center .join .end .df .df1 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 32px;
+  }
+  section .join .center .join .end .df .df1 hr {
+    margin-left: 20px;
+    background: rgb(18, 18, 18);
+    width: 240px;
+    height: 3px;
+  }
+  section .join .center .join .end .df .df2 {
+    margin-left: 317px;
+    gap: 32px;
+    display: flex;
+  }
+  section .join .center .join .end .df .df2 p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  footer .center {
+    gap: 34px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .center .df1 {
+    margin-left: -20px;
+    width: 460px;
+  }
+  footer .center .df1 img {
+    display: flex;
+    margin-left: 311px;
+    width: 149px;
+    height: 47px;
+  }
+  footer .center .df1 .inside {
+    margin-top: 32px;
+    width: 460px;
+    height: 261px;
+    border-radius: 8px 32px 8px 32px;
+    background: rgb(247, 247, 247);
+  }
+  footer .center .df1 .inside .details {
+    padding-top: 24px;
+    margin-left: 32px;
+  }
+  footer .center .df1 .inside .details .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  footer .center .df1 .inside .details .top .df h2 {
+    width: 110px;
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  footer .center .df1 .inside .details .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  footer .center .df1 .inside .details .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  footer .center .df1 .inside .details .df1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df2 {
+    margin-top: 22.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df2 svg {
+    width: 24px;
+    height: 24px;
+  }
+  footer .center .df1 .inside .details .df3 {
+    margin-top: 12.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df3 svg {
+    width: 30px;
+    height: 24px;
+  }
+  footer .center .df1 .inside .end {
+    margin-top: 5px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 4px;
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  footer .center .df1 .df22 {
+    margin-bottom: 40px;
+    display: flex;
+    padding-top: 107px;
+    gap: 149px;
+  }
+  footer .center .df1 .df22 p {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+  }
+  footer .center .df2 img {
+    width: 745px;
+    height: 460px;
+  }
+}
+@media only screen and (min-width: 840px) {
+  header {
+    width: 100%;
+  }
+  header .center1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  header .center1 .header_item .df1 {
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center1 .header_item .df1 .df_first {
+    border-radius: 32px 32px 32px 16px;
+    background: rgb(247, 247, 247);
+    width: 952px;
+    height: 475px;
+  }
+  header .center1 .header_item .df1 .df_first .elements {
+    margin-top: 52px;
+    margin-left: 64px;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 {
+    display: flex;
+    gap: 220px;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df2 h1 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    text-align: left;
+  }
+  header .center1 .header_item .df1 .df_first .elements h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    margin-top: 32px;
+    width: 824px;
+  }
+  header .center1 .header_item .df1 .df_first .elements hr {
+    background: rgb(18, 18, 18);
+    width: 480px;
+    height: 4px;
+    margin-top: 80px;
+  }
+  header .center1 .header_item .df1 .df_first .elements button {
+    border: 0;
+    border-radius: 24px 8px 24px 8px;
+    background: rgb(0, 47, 73);
+    margin-top: 24px;
+    width: 338px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  header .center1 .header_item .df1 .df_first .elements .df_el {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center1 .header_item .df1 .df_photo img {
+    width: 460px;
+    height: 475px;
+  }
+  header .center2 {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  header .center2 .df_ele {
+    display: flex;
+    gap: 32px;
+  }
+  header .center2 .df_ele a .card {
+    border-radius: 16px 16px 16px 4px;
+    background: rgb(247, 247, 247);
+    width: 337px;
+    height: 150px;
+  }
+  header .center2 .df_ele a .card .ele {
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+  header .center2 .df_ele a .card .ele img {
+    width: 72px;
+    height: 72px;
+  }
+  header .center2 .df_ele a .card .ele .df {
+    margin-top: 17px;
+    display: flex;
+    gap: 32px;
+  }
+  header .center2 .df_ele a .card .ele .df p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 243px;
+  }
+  section {
+    margin-top: 100px;
+    width: 100%;
+  }
+  section .about .center {
+    display: flex;
+    justify-content: center;
+  }
+  section .about .center .df_section {
+    display: flex;
+    gap: 32px;
+  }
+  section .about .center .df_section .element1 img {
+    border-radius: 16px 32px 32px 32px;
+    width: 460px;
+    height: 468px;
+  }
+  section .about .center .df_section .element2 .el1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 952px;
+    height: 88px;
+    border-radius: 32px 16px 32px 32px;
+    background: rgb(247, 247, 247);
+  }
+  section .about .center .df_section .element2 .el1 p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el1 hr {
+    width: 190px;
+    height: 4px;
+    background: rgb(18, 18, 18);
+  }
+  section .about .center .df_section .element2 .el2 {
+    margin-top: 16px;
+    width: 952px;
+    height: 622px;
+    border-radius: 32px 32px 16px 32px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 p {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .about .center .df_section .element2 .el2 .elements .df2 hr {
+    width: 40px;
+    height: 4px;
+    background: rgb(0, 47, 73);
+  }
+  section .about .center .df_section .element2 .el2 .elements h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 20px;
+  }
+  section .about .center .df_section .element2 .el2 .elements h3 {
+    width: 888px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el2 .elements h3 span {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+  section .about .center .df_section .element2 .el2 .elements .end {
+    margin-top: 21px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  section .about .center .df_section .element2 .el2 .elements .end p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .our {
+    margin-top: 100px;
+    width: 100%;
+  }
+  section .our .left {
+    display: flex;
+    justify-content: center;
+  }
+  section .our .left button {
+    margin-right: -1220px;
+    border-radius: 24px 8px 24px 8px;
+    width: 238px;
+    height: 64px;
+    background: rgb(0, 47, 73);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+  section .our .center1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 1209px;
+    align-items: center;
+  }
+  section .our .center1 .safe .text .df {
+    align-items: center;
+    display: flex;
+  }
+  section .our .center1 .safe .text .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .our .center1 .safe .text .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 3px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .our .center1 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+  }
+  section .our .center {
+    display: flex;
+  }
+  section .our .center .our {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .our .center .our h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .our .center .our .df_main {
+    display: flex;
+  }
+  section .our .center .our .df_main .pages {
+    margin-top: 32px;
+  }
+  section .our .center .our .df_main .pages .ss {
+    width: 28px;
+    height: 28px;
+  }
+  section .our .center .our .df_main .pages .sliders {
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  section .our .center .our .df_main .pages .sliders svg {
+    margin-top: 4px;
+    width: 15px;
+    height: 10px;
+    display: block;
+  }
+  section .our .center .our .main_df {
+    display: flex;
+    gap: 32px;
+    margin-top: 30px;
+  }
+  section .our .center .our .main_df .element11 {
+    margin-left: 16px;
+    width: 918px;
+    height: 460px;
+    border-radius: 16px 32px 32px 32px;
+    background: rgb(247, 247, 247);
+  }
+  section .our .center .our .main_df .element11 .elements {
+    margin-left: 32px;
+    margin-top: 28px;
+  }
+  section .our .center .our .main_df .element11 .elements .df {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  section .our .center .our .main_df .element11 .elements .df p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    width: 582px;
+  }
+  section .our .center .our .main_df .element11 .elements .df hr {
+    /* Sep */
+    width: 240px;
+    height: 4px;
+    background: rgb(18, 18, 18);
+  }
+  section .our .center .our .main_df .element11 .elements h3 {
+    width: 854px;
+    margin-top: 16px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element11 .elements h3 span {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element11 .elements .end {
+    margin-top: 90px;
+  }
+  section .our .center .our .main_df .element11 .elements .end p {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+  }
+  section .our .center .our .main_df .element22 img {
+    width: 460px;
+    height: 460px;
+  }
+  section .better .center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  section .better .center .top {
+    margin-right: 1089px;
+  }
+  section .better .center .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .better .center .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .better .center .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .better .center .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .better .center_main {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+  section .better .center_main .df1 {
+    display: flex;
+    gap: 32px;
+  }
+  section .better .center_main .df1 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 100px;
+  }
+  section .better .center_main .df1 .card .elements .df {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+  section .better .center_main .df1 .card .elements .df img {
+    width: 60px;
+    height: 60px;
+  }
+  section .better .center_main .df1 .card .elements .df .item2 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 340px;
+  }
+  section .better .center_main .df1 .card .elements .df .item2 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 340px;
+  }
+  section .better .center_main .df2 {
+    display: flex;
+    margin-top: 16px;
+    gap: 32px;
+  }
+  section .better .center_main .df2 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 100px;
+  }
+  section .better .center_main .df2 .card .elements .df {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+  section .better .center_main .df2 .card .elements .df img {
+    width: 60px;
+    height: 60px;
+  }
+  section .better .center_main .df2 .card .elements .df .item2 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    width: 340px;
+  }
+  section .better .center_main .df2 .card .elements .df .item2 h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 340px;
+  }
+  section .choose {
+    width: 100%;
+    margin-top: 100px;
+  }
+  section .choose .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .choose .center .choose .top {
+    margin-right: 1149px;
+  }
+  section .choose .center .choose .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .choose .center .choose .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .choose .center .choose .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .choose .center .choose .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .choose .center .choose .pages {
+    margin-right: -1292px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+  section .choose .center .choose .pages .ss2 {
+    margin-left: 10px;
+  }
+  section .choose .center .choose .pages .sliders {
+    margin-left: 5px;
+    margin-bottom: 12px;
+  }
+  section .choose .center .choose .pages .sliders svg {
+    margin-top: 15px;
+    width: 15px;
+    height: 10px;
+  }
+  section .choose .center .choose .cards {
+    margin-top: 12px;
+    display: flex;
+    gap: 32px;
+  }
+  section .choose .center .choose .cards .card img {
+    width: 336px;
+    height: 476px;
+  }
+  section .choose .center .choose .cards .card p {
+    margin-top: 12px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    width: 336px;
+  }
+  section .partners {
+    margin-top: 100px;
+  }
+  section .partners .center {
+    display: flex;
+    justify-content: center;
+  }
+  section .partners .center .top {
+    margin-right: 1149px;
+  }
+  section .partners .center .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .partners .center .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .partners .center .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .partners .center .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .partners .center .partners .cards {
+    margin-top: 32px;
+    gap: 32px;
+    display: flex;
+  }
+  section .partners .center .partners .cards img {
+    width: 214px;
+    height: 212px;
+  }
+  section .join {
+    margin-top: 100px;
+  }
+  section .join .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .join .center .join .top {
+    margin-right: 1149px;
+  }
+  section .join .center .join .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  section .join .center .join .top .df h2 {
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  section .join .center .join .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  section .join .center .join .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df1 {
+    display: flex;
+    gap: 32px;
+  }
+  section .join .center .join .cards .df1 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df1 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df1 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df1 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 336px;
+  }
+  section .join .center .join .cards .df1 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df2 {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+  }
+  section .join .center .join .cards .df2 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df2 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df2 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df2 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 336px;
+  }
+  section .join .center .join .cards .df2 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df3 {
+    margin-top: 16px;
+    display: flex;
+    gap: 30px;
+  }
+  section .join .center .join .cards .df3 .card {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df3 .card h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df3 .card .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df3 .card .df h3 {
+    margin-left: 20px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    width: 336px;
+  }
+  section .join .center .join .cards .df3 .card .df h4 {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  section .join .center .join .cards .df3 .card_more {
+    border-radius: 4px 16px 16px 16px;
+    background: rgb(247, 247, 247);
+    width: 460px;
+    height: 81px;
+  }
+  section .join .center .join .cards .df3 .card_more .df {
+    display: flex;
+    margin-top: 4px;
+  }
+  section .join .center .join .cards .df3 .card_more .df h2 {
+    width: 398px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  section .join .center .join .cards .df3 .card_more .df svg {
+    position: absolute;
+    margin-left: 418px;
+    margin-top: 25.5px;
+    width: 22px;
+    height: 22px;
+  }
+  section .join .center .join .cards .df3 .card_more h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+  section .join .center .join .end {
+    width: 1444px;
+    height: 88px;
+    border-radius: 32px 16px 32px 32px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    margin-top: 19px;
+  }
+  section .join .center .join .end .df {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  section .join .center .join .end .df .df1 {
+    display: flex;
+    align-items: center;
+  }
+  section .join .center .join .end .df .df1 h2 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 32px;
+  }
+  section .join .center .join .end .df .df1 hr {
+    margin-left: 20px;
+    background: rgb(18, 18, 18);
+    width: 240px;
+    height: 3px;
+  }
+  section .join .center .join .end .df .df2 {
+    margin-left: 317px;
+    gap: 32px;
+    display: flex;
+  }
+  section .join .center .join .end .df .df2 p {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  footer .center {
+    gap: 34px;
+    display: flex;
+    justify-content: center;
+  }
+  footer .center .df1 {
+    margin-left: -20px;
+    width: 460px;
+  }
+  footer .center .df1 img {
+    display: flex;
+    margin-left: 311px;
+    width: 149px;
+    height: 47px;
+  }
+  footer .center .df1 .inside {
+    margin-top: 32px;
+    width: 460px;
+    height: 261px;
+    border-radius: 8px 32px 8px 32px;
+    background: rgb(247, 247, 247);
+  }
+  footer .center .df1 .inside .details {
+    padding-top: 24px;
+    margin-left: 32px;
+  }
+  footer .center .df1 .inside .details .top .df {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  footer .center .df1 .inside .details .top .df h2 {
+    width: 110px;
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  footer .center .df1 .inside .details .top .df hr {
+    background: rgb(0, 47, 73);
+    /* Sep */
+    position: static;
+    width: 40px;
+    height: 4px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+  }
+  footer .center .df1 .inside .details .top h3 {
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 4px;
+  }
+  footer .center .df1 .inside .details .df1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df2 {
+    margin-top: 22.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df2 svg {
+    width: 24px;
+    height: 24px;
+  }
+  footer .center .df1 .inside .details .df3 {
+    margin-top: 12.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(18, 18, 18);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  footer .center .df1 .inside .details .df3 svg {
+    width: 30px;
+    height: 24px;
+  }
+  footer .center .df1 .inside .end {
+    margin-top: 5px;
+    margin-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 4px;
+    color: rgb(0, 47, 73);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  footer .center .df1 .df22 {
+    margin-bottom: 40px;
+    display: flex;
+    padding-top: 107px;
+    gap: 149px;
+  }
+  footer .center .df1 .df22 p {
+    color: rgb(109, 109, 109);
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+  }
+  footer .center .df2 img {
+    width: 952px;
+    height: 460px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
